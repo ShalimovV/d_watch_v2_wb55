@@ -632,7 +632,7 @@ int main(void)
           	if (ms5837_is_connected() == HAL_OK) {
           		  ssd1306_WriteString("MS5837 Ok", Font_7x10, White);
           		  watch_state.MS5837_is_ok = true;
-          		  read_ms5837(); //test
+          		  read_ms5837();
           		  MS5837_set_atm_pressure(water.pressure);
           		  status = ms5837_read_temperature_and_pressure(&water.temperature, &water.pressure);
           		  water.min_temp = water.temperature;
