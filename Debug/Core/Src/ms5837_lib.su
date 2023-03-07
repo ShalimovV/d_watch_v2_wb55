@@ -1,0 +1,13 @@
+../Core/Src/ms5837_lib.c:67:6:ms5837_Port_Init	16	static
+../Core/Src/ms5837_lib.c:72:19:ms5837_is_connected	16	static
+../Core/Src/ms5837_lib.c:86:20:ms5837_write_command	32	static
+../Core/Src/ms5837_lib.c:107:6:ms5837_set_resolution	16	static
+../Core/Src/ms5837_lib.c:119:20:ms5837_reset	8	static
+../Core/Src/ms5837_lib.c:135:20:ms5837_read_eeprom_coeff	32	static
+../Core/Src/ms5837_lib.c:163:20:ms5837_read_eeprom	16	static
+../Core/Src/ms5837_lib.c:189:6:ms5837_crc_check	24	static
+../Core/Src/ms5837_lib.c:232:20:ms5837_conversion_and_read_adc	32	static
+../Core/Src/ms5837_lib.c:282:20:ms5837_read_temperature_and_pressure	472	static
+../Core/Src/ms5837_lib.c:365:7:MS5837_depth	24	static
+../Core/Src/ms5837_lib.c:369:7:MS5837_altitude	16	static
+../Core/Src/ms5837_lib.c:373:6:MS5837_set_atm_pressure	16	static
